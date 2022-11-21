@@ -105,7 +105,7 @@ headheight=\\baselineskip]{geometry}
 \\ProcessOptions\\relax
 
 %% Command to provide alternative translations
-\\newcommand{\\UseLanguage}[3]{
+\\newcommand{\\UseLanguage}[4]{
    \\iflanguage{french}{#1}{}
    \\iflanguage{english}{#2}{}
    \\iflanguage{german}{#3}{}
@@ -180,9 +180,9 @@ headheight=\\baselineskip]{geometry}
 
 %% TASKS
 
-\\newcommand*{\\@tasklistlabel}{\\UseLanguage{Liste de tâches}{Task List}{Aufgaben}{TAKEN}}
+\\newcommand*{\\@tasklistlabel}{\\UseLanguage{Liste de tâches}{Task List}{Aufgaben}{Taken}}
 \\newcommand*{\\@tasknumberlabel}{\\#}
-\\newcommand*{\\@tasklabel}{\\UseLanguage{TACHE}{TASK}{Aufgabe}}
+\\newcommand*{\\@tasklabel}{\\UseLanguage{TACHE}{TASK}{Aufgabe}{TAAK}}
 
 \\newcommand*{\\@duelabel}{\\UseLanguage{DATE D'ECHEANCE}{DUE DATE}{ERLEDIGUNGSDATUM}{EINDDATUM}}
 
@@ -216,7 +216,7 @@ headheight=\\baselineskip]{geometry}
     \\hspace*{\\tabcolsep}\\@project
   \\end{minipage}%%
   \\hfill
-  \\thepage\\ \\UseLanguage{de}{of}{von} \\pageref{LastPage}
+  \\thepage\\ \\UseLanguage{de}{of}{von}{van} \\pageref{LastPage}
   ~~\\newline
   \\@separator
 }
