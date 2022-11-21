@@ -295,9 +295,9 @@ headheight=\\baselineskip]{geometry}
     \\rowcolor{white}
       \\parbox{\\linewidth}{{\\@labeltext \\@initiatorlabel}\\\\\\@initiator}
       & \\parbox{\\linewidth}{{\\@labeltext \\@authorlabel}\\\\\\@author}
-      & \\raisebox{-1cm}{\\begin{sideways}\\parbox{3cm}{\\raggedright\\@labeltext\\@presentlabel}\\end{sideways}}
-      & \\raisebox{-1cm}{\\begin{sideways}\\parbox{3cm}{\\raggedright\\@labeltext\\@absentlabel}\\end{sideways}}
-      & \\raisebox{-1cm}{\\begin{sideways}\\parbox{3cm}{\\raggedright\\@labeltext\\@excusedlabel}\\end{sideways}}\\\\
+      & \\raisebox{-1cm}{\\begin{sideways}\\parbox{3.5cm}{\\raggedright\\@labeltext\\@presentlabel}\\end{sideways}}
+      & \\raisebox{-1cm}{\\begin{sideways}\\parbox{3.5cm}{\\raggedright\\@labeltext\\@absentlabel}\\end{sideways}}
+      & \\raisebox{-1cm}{\\begin{sideways}\\parbox{3.5cm}{\\raggedright\\@labeltext\\@excusedlabel}\\end{sideways}}\\\\
     \\rowcolor{white} \\multicolumn{5}{@{}c@{}}{\\@separator}\\\\
     \\rowcolor{white} \\@labeltext \\@participantslabel\\\\
     \\@participantstable
