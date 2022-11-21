@@ -148,8 +148,8 @@ headheight=\\baselineskip]{geometry}
 \\newcommand*{\\@initiator}{Set with \\texttt{\\textbackslash initiator\\{\\}}}
 \\newcommand*{\\initiator}{\\renewcommand*{\\@initiator}}
 
-\\newcommand*{\\@participantlabel}{\\UseLanguage{PARTICIPANT}{PARTICIPANT}{TEILNEHMER}}
-\\newcommand*{\\@participantslabel}{\\UseLanguage{PARTICIPANTS}{PARTICIPANTS}{TEILNEHMER}}
+\\newcommand*{\\@participantlabel}{\\UseLanguage{PARTICIPANT}{PARTICIPANT}{TEILNEHMER}{DEELNEMER}}
+\\newcommand*{\\@participantslabel}{\\UseLanguage{PARTICIPANTS}{PARTICIPANTS}{TEILNEHMER}{DEELNEMERS}}
 
 \\newcommand*{\\@preparedlabel}{\\UseLanguage{PREPARE PAR}{PREPARED BY}{VORBEREITET VON}{VOORBEREID DOOR}}
 \\newcommand*{\\@prepared}{Set with \\texttt{\\textbackslash prepared\\{\\}}}
