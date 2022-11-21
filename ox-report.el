@@ -125,49 +125,49 @@ headheight=\\baselineskip]{geometry}
 %% Standard style for labels, small and bold
 \\newcommand{\\@labeltext}{\\large\\scshape}
 
-\\newcommand*{\\@approvedlabel}{\\UseLanguage{APPROUVE PAR}{APPROVED BY}{FREIGEGEBEN VON}}
+\\newcommand*{\\@approvedlabel}{\\UseLanguage{APPROUVE PAR}{APPROVED BY}{FREIGEGEBEN VON}{GOEDGEKEURD DOOR}}
 \\newcommand*{\\@approved}{Set with \\texttt{\textbackslash approved\\{\\}}}
 \\newcommand*{\\approved}{\\renewcommand*{\\@approved}}
 
-\\newcommand*{\\@authorlabel}{\\UseLanguage{Auteur(s)}{Author(s)}{Author(en)}}
-\\newcommand*{\\@Authorlabel}{\\UseLanguage{AUTEUR(S)}{AUTHOR(S)}{AUTHOR(EN)}}
+\\newcommand*{\\@authorlabel}{\\UseLanguage{Auteur(s)}{Author(s)}{Author(en)}{Author(nl)}}
+\\newcommand*{\\@Authorlabel}{\\UseLanguage{AUTEUR(S)}{AUTHOR(S)}{AUTHOR(EN)}{AUTEUR(NL)}}
 
-\\newcommand*{\\@checkedlabel}{\\UseLanguage{VERIFIE PAR}{CHECKED BY}{VERIFIZIERT DURCH}}
+\\newcommand*{\\@checkedlabel}{\\UseLanguage{VERIFIE PAR}{CHECKED BY}{VERIFIZIERT DURCH}{GEVERIFIEERD DOOR}}
 \\newcommand*{\\@checked}{Set with \\texttt{\textbackslash checked\\{\\}}}
 \\newcommand*{\\checked}{\\renewcommand*{\\@checked}}
 
-\\newcommand*{\\@datelabel}{\\UseLanguage{DATE}{DATE}{DATUM}}
-\\newcommand*{\\@absentlabel}{\\UseLanguage{ABSENT}{ABSENT}{ABWESEND}}
-\\newcommand*{\\@excusedlabel}{\\UseLanguage{EXCUSE}{EXCUSED}{ENTSCHULDIGT}}
+\\newcommand*{\\@datelabel}{\\UseLanguage{DATE}{DATE}{DATUM}{DATUM}}
+\\newcommand*{\\@absentlabel}{\\UseLanguage{ABSENT}{ABSENT}{ABWESEND}{AFWEZIG}}
+\\newcommand*{\\@excusedlabel}{\\UseLanguage{EXCUSE}{EXCUSED}{ENTSCHULDIGT}{GEËXCUSEERD}}
 
-\\newcommand*{\\@durationlabel}{\\UseLanguage{DUREE}{DURATION}{DAUER}}
+\\newcommand*{\\@durationlabel}{\\UseLanguage{DUREE}{DURATION}{DAUER}{DUUR}}
 \\newcommand*{\\@duration}{Set with \\texttt{\\textbackslash duration\\{\\}}}
 \\newcommand*{\\duration}{\\renewcommand*{\\@duration}}
 
-\\newcommand*{\\@initiatorlabel}{\\UseLanguage{INITIATEUR}{INITIATED BY}{INITIATOR}}
+\\newcommand*{\\@initiatorlabel}{\\UseLanguage{INITIATEUR}{INITIATED BY}{INITIATOR}{INITIATOR}}
 \\newcommand*{\\@initiator}{Set with \\texttt{\\textbackslash initiator\\{\\}}}
 \\newcommand*{\\initiator}{\\renewcommand*{\\@initiator}}
 
 \\newcommand*{\\@participantlabel}{\\UseLanguage{PARTICIPANT}{PARTICIPANT}{TEILNEHMER}}
 \\newcommand*{\\@participantslabel}{\\UseLanguage{PARTICIPANTS}{PARTICIPANTS}{TEILNEHMER}}
 
-\\newcommand*{\\@preparedlabel}{\\UseLanguage{PREPARE PAR}{PREPARED BY}{VORBEREITET VON}}
+\\newcommand*{\\@preparedlabel}{\\UseLanguage{PREPARE PAR}{PREPARED BY}{VORBEREITET VON}{VOORBEREID DOOR}}
 \\newcommand*{\\@prepared}{Set with \\texttt{\\textbackslash prepared\\{\\}}}
 \\newcommand*{\\prepared}{\\renewcommand*{\\@prepared}}
 
-\\newcommand*{\\@presentlabel}{\\UseLanguage{PRESENT}{PRESENT}{ANWESEND}}
+\\newcommand*{\\@presentlabel}{\\UseLanguage{PRESENT}{PRESENT}{ANWESEND}{AANWEZIG}}
 
-\\newcommand*{\\@projectlabel}{\\UseLanguage{PROJET}{PROJECT}{PROJEKT}}
+\\newcommand*{\\@projectlabel}{\\UseLanguage{PROJET}{PROJECT}{PROJEKT}{PROJECT}}
 \\newcommand*{\\@project}{Set with \\texttt{\\textbackslash project\\{\\}}}
 \\newcommand*{\\project}{\\renewcommand*{\\@project}}
 
-\\newcommand*{\\@referencelabel}{\\UseLanguage{REFERENCE}{REFERENCE}{REFERENCE}}
+\\newcommand*{\\@referencelabel}{\\UseLanguage{REFERENCE}{REFERENCE}{REFERENCE}{REFERENTIE}}
 
 
 
-\\newcommand*{\\@reportlabel}{\\UseLanguage{Rapport}{Report}{Bericht}}
+\\newcommand*{\\@reportlabel}{\\UseLanguage{Rapport}{Report}{Bericht}{Verslag}}
 
-\\newcommand*{\\@reportnumberlabel}{\\UseLanguage{RAPPORT N°}{REPORT NUMBER}{BERICHT NUMMER}}
+\\newcommand*{\\@reportnumberlabel}{\\UseLanguage{RAPPORT N°}{REPORT NUMBER}{BERICHT NUMMER}{VERSLAG N°}}
 \\newcommand*{\\@reportnumber}{Set with \\texttt{\\textbackslash reportnumber\\{\\}}}
 \\newcommand*{\\reportnumber}{\\renewcommand*{\\@reportnumber}}
 
@@ -180,13 +180,13 @@ headheight=\\baselineskip]{geometry}
 
 %% TASKS
 
-\\newcommand*{\\@tasklistlabel}{\\UseLanguage{Liste de tâches}{Task List}{Aufgaben}}
+\\newcommand*{\\@tasklistlabel}{\\UseLanguage{Liste de tâches}{Task List}{Aufgaben}{TAKEN}}
 \\newcommand*{\\@tasknumberlabel}{\\#}
 \\newcommand*{\\@tasklabel}{\\UseLanguage{TACHE}{TASK}{Aufgabe}}
 
-\\newcommand*{\\@duelabel}{\\UseLanguage{DATE D'ECHEANCE}{DUE DATE}{ERLEDIGUNGSDATUM}}
+\\newcommand*{\\@duelabel}{\\UseLanguage{DATE D'ECHEANCE}{DUE DATE}{ERLEDIGUNGSDATUM}{EINDDATUM}}
 
-\\newcommand*{\\@responsiblelabel}{\\UseLanguage{RESPONSABLE}{RESPONSIBLE}{VERANTWORTLICH}}
+\\newcommand*{\\@responsiblelabel}{\\UseLanguage{RESPONSABLE}{RESPONSIBLE}{VERANTWORTLICH}{VERANTWOORDELIJK}}
 
 
 %% MINUTES %<------------------------------------------------------->%
@@ -194,7 +194,7 @@ headheight=\\baselineskip]{geometry}
 
 \\PassOptionsToPackage{table}{xcolor}
 
-\\renewcommand*{\\@authorlabel}{\\UseLanguage{ECRIT PAR}{WRITTEN BY}{GESCHRIEBEN VON}}
+\\renewcommand*{\\@authorlabel}{\\UseLanguage{ECRIT PAR}{WRITTEN BY}{GESCHRIEBEN VON}{GESCHREVEN DOOR}}
 
 
 %% Setting up header and footer
