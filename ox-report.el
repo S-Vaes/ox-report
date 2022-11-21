@@ -109,6 +109,7 @@ headheight=\\baselineskip]{geometry}
    \\iflanguage{french}{#1}{}
    \\iflanguage{english}{#2}{}
    \\iflanguage{german}{#3}{}
+   \\iflanguage{dutch}{#4}{}    
 }
 
 %% This} separating line is used across several documents,
