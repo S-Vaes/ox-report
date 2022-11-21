@@ -105,7 +105,7 @@ headheight=\\baselineskip]{geometry}
 \\ProcessOptions\\relax
 
 %% Command to provide alternative translations
-\\newcommand{\\UseLanguage}[4]{
+\\newcommand{\\UseLanguage}[3]{
    \\iflanguage{french}{#1}{}
    \\iflanguage{english}{#2}{}
    \\iflanguage{german}{#3}{}
